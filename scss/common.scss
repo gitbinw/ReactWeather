@@ -1,0 +1,19 @@
+$white: #ffffff;
+$light_grey: #eeeeee;
+$darker_grey: #aaaaaa;
+$grey: #cccccc;
+$light_blue: #0092ff;
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+.board {
+    @include border-radius(8px);
+    background: $light_grey;
+    padding: 20px 5%;
+    margin-top: 20px;
+}
