@@ -6,6 +6,7 @@ You can enter multiple cities for checking the weather.
 * install NodeJS
 * install Sass 
 * install React, WebPack, Babel, Sass Loader, Hot Loader, Fetch, Jest, Enzyme with npm
+* run 'npm test' to start unit tests
 * run 'npm start' to build the app for dev and run the app in the browser. 
 * open http://localhost:8080 in browser.
 
